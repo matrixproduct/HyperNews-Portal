@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create news</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  </head>
+  <body>
+    <form action="/news/create/" method="post">{% csrf_token %}
+    <p>Title:</p>
+    <input type="text" name="title">
+     <br>
+     <p>Text:</p>
+    <input type="text" name="text">
+     <br>
+     <br>
+     <button type="submit">Submit</button>
+    </form>
+    <br>
+    <a target="_blank" href="/news/"> Main news page </a>
+  </body>
+</html>
