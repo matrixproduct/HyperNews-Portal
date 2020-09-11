@@ -1,2 +1,3 @@
 # HyperNews-Portal
-In this project I learned the basics of Django: handling data through HTTP, templates. It also included some addtional topics such as HTML and CSS, JSON files and Python DateTime module. 
+
+In this project I have further developed my skills in creating content in the database and serving the data through HTTP. I learned more about Django ORM, templates, forms, queries, filters, authentication and applied this knowledge in the project.
